@@ -14,7 +14,7 @@ function HeaderHomeOne() {
     <>
       <MobileHeaderCom logo={logo2} />
       <header className="main-header header-one">
-        <div className="header-top bg-lighter py-10">
+        {/* <div className="header-top bg-lighter py-10">
           <div className="top-left">
             <ul>
               <li>
@@ -46,7 +46,7 @@ function HeaderHomeOne() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="header-upper bg-white">
           <div className="container-fluid clearfix">
             <div className="header-inner d-flex align-items-center">
@@ -62,7 +62,7 @@ function HeaderHomeOne() {
                 <Navigation className="nav-home-one" />
                 <div className="menu-btn">
                   <a href="/contact" className="theme-btn">
-                    meet with us
+                    Área do Usuário
                   </a>
                 </div>
               </div>

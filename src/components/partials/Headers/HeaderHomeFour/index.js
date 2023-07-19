@@ -15,7 +15,7 @@ export default function HeaderHomeFour() {
     <>
       <MobileHeaderCom logo={logo2} />
       <header className="main-header header-four">
-        <div className="header-top-wrap bg-lighter py-10">
+        {/* <div className="header-top-wrap bg-lighter py-10">
           <div className="container">
             <div className="header-top">
               <div className="top-left">
@@ -52,7 +52,7 @@ export default function HeaderHomeFour() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="header-upper text-white">
           <div className="container clearfix">
             <div className="header-inner d-flex align-items-center">
@@ -88,8 +88,8 @@ export default function HeaderHomeFour() {
                   </form>
                 </div>
                 <div className="menu-btn">
-                  <a href="/contact" className="theme-btn">
-                    meet with us
+                  <a href="/contact" className="theme-btn2">
+                    Área do Usuário
                   </a>
                 </div>
               </div>

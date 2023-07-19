@@ -115,7 +115,7 @@ h6 a {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 58px;
 }
 
 h2 {
@@ -128,6 +128,13 @@ h3 {
   font-size: 22px;
 }
 
+.h3p {
+  font-size: 30px;
+  text-align: center;
+  margin-top: -70px;
+  margin-bottom: 50px;
+}
+
 h4 {
   line-height: 1.4;
   font-size: 20px;
@@ -138,11 +145,12 @@ h5 {
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 25px;
+  font-weight: 600px
 }
 
 p {
-  color: #454545;
+  color: #000000;
 }
 
 ul,
@@ -327,6 +335,44 @@ input[type="radio"] {
 .theme-btn,
 a.theme-btn {
   background: #104cba;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 5px;
+  padding: 11px 28px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  text-transform: capitalize;
+}
+
+.theme-btn2,
+a.theme-btn2 {
+  background: #104cba;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 5px;
+  padding: 11px 28px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  text-transform: capitalize;
+}
+
+.theme-btn1,
+a.theme-btn1 {
+  background: #509E84;
   font-size: 16px;
   color: white;
   cursor: pointer;
@@ -1238,13 +1284,11 @@ a.theme-btn.gradient-btn-one:not(hover):before {
 /*******************************************************/
 h1,
 h2,
-h3,
 h4,
 h5,
-h6,
 .success-item .count-text,
 .pricing-header .price {
-  font-weight: 800;
+  font-weight: 500;
   color: #000000;
   font-family: "Nunito", sans-serif;
 }
@@ -1493,7 +1537,7 @@ h6,
 
 .pt-30,
 .py-30 {
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 .pt-35,
@@ -1995,7 +2039,7 @@ h6,
 
 .pb-30,
 .py-30 {
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 
 .pb-35,
@@ -6230,7 +6274,7 @@ h6,
 }
 
 .header-four.fixed-header .header-upper {
-  background: #222f5a;
+  background: #1F2545;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -7542,6 +7586,7 @@ h6,
 .about-section {
   z-index: 1;
   position: relative;
+  background-color: #F7F7F7;
 }
 .about-section:after {
   content: "";
@@ -7626,7 +7671,7 @@ h6,
 }
 
 .about-content > i {
-  color: black;
+  color: #000000;
   display: block;
   margin-right: 25px;
   margin-bottom: 10px;

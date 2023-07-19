@@ -1,7 +1,7 @@
 import React from "react";
 import aboutCircleDots from "../../assets/images/about/about-circle-dots.png";
-import aboutThumbTwo from "../../assets/images/about/about-four-2.jpg";
-import aboutThumb from "../../assets/images/about/about-four.jpg";
+import aboutThumbTwo from "../../assets/images/about/about-four-2.png";
+import aboutThumb from "../../assets/images/about/about-four.png";
 import logoCircle from "../../assets/images/logos/logo-circle.png";
 
 export default function AboutSection() {
@@ -27,7 +27,7 @@ export default function AboutSection() {
                 Consectetur adipisicing elit, sed do eiusmod tempor incididunt
                 ut labore et dolore magna aliqua.
               </i>
-              <a href="/about-one" className="theme-btn mt-25">
+              <a href="/about-one" className="theme-btn1 mt-25">
                 Learn About More
               </a>
             </div>

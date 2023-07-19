@@ -12,23 +12,23 @@ export default function Hero() {
         <div className="row align-items-center">
           <div className="col-lg-7">
             <div className="hero-content text-white rmb-65">
-              <span className="sub-title d-block wow fadeInUp delay-0-2s">
-                EMPOWER YOUR BUSINESS
-              </span>
-              <h1 className="wow fadeInUp delay-0-4s mt-20">
-                Excellent services for IT success
+              {/* <span className="sub-title d-block wow fadeInUp delay-0-2s">
+                Vantagens e Benefícios
+              </span> */}
+              <h1 className="wow fadeInUp delay-0-4s mt-90">
+               Benefícios feito<br/>para você Servidor
               </h1>
               <div className="hero-btns mt-35 wow fadeInUp delay-0-6s">
                 <a href="/contact" className="theme-btn mr-15 mb-10">
-                  meet with us
+                  Saiba Mais
                 </a>
-                <a href="/about-one" className="theme-btn style-five mb-10">
-                  learn more
-                </a>
+                {/* <a href="/about-one" className="theme-btn style-five mb-10">
+                  Saiba Mais
+                </a> */}
               </div>
             </div>
           </div>
-          <div className="col-lg-5">
+          {/* <div className="col-lg-5">
             <div className="hero-section-form bg-white p-50 wow fadeInRight delay-0-4s">
               <div className="section-title">
                 <h2 className="mb-0">Free Consultation</h2>
@@ -77,7 +77,7 @@ export default function Hero() {
                 </button>
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="hero-line-shape">
