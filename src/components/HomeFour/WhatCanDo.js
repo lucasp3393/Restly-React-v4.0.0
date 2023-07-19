@@ -1,4 +1,6 @@
 import React from "react";
+import Icone2 from "../../assets/images/icones/cartao-de-credito.png";
+import Icone1 from "../../assets/images/icones/monitorar-tablet-e-smartohone.png";
 
 export default function WhatCanDo() {
   return (
@@ -10,8 +12,7 @@ export default function WhatCanDo() {
             <div className="service-box wow fadeInUp delay-0-2s">
               <div className="service-normal">
                 <div className="icon">
-                  <imag src={icone1} alt="icone 1" tittle="icone 1"/>
-                  <i className="fas fa-mobile-alt"></i>
+                  <img src={Icone1} alt="Icon" className="mb-30"/>
                 </div>
                 <h6>Controle de Gastos</h6>
                 <p>
@@ -35,7 +36,7 @@ export default function WhatCanDo() {
             <div className="service-box wow fadeInUp delay-0-4s">
               <div className="service-normal">
                 <div className="icon">
-                <i className="fas fa-credit-card"></i>
+                <img src={Icone2} alt="Icon" className="mb-30"/>
                 </div>
                 <h6>Crédito<br/>Pré-Aprovado</h6>
                 <p>
