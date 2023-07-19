@@ -1,6 +1,8 @@
 import React from "react";
+import Icone3 from "../../assets/images/icones/cadeado.png";
 import Icone2 from "../../assets/images/icones/cartao-de-credito.png";
 import Icone1 from "../../assets/images/icones/monitorar-tablet-e-smartohone.png";
+import Icone4 from "../../assets/images/icones/renda.png";
 
 export default function WhatCanDo() {
   return (
@@ -12,7 +14,7 @@ export default function WhatCanDo() {
             <div className="service-box wow fadeInUp delay-0-2s">
               <div className="service-normal">
                 <div className="icon">
-                  <img src={Icone1} alt="Icon" className="mb-30"/>
+                  <img src={Icone1} alt="Icon" className="mb-25"/>
                 </div>
                 <h6>Controle de Gastos</h6>
                 <p>
@@ -36,7 +38,7 @@ export default function WhatCanDo() {
             <div className="service-box wow fadeInUp delay-0-4s">
               <div className="service-normal">
                 <div className="icon">
-                <img src={Icone2} alt="Icon" className="mb-30"/>
+                <img src={Icone2} alt="Icon" className="mb-25"/>
                 </div>
                 <h6>Crédito<br/>Pré-Aprovado</h6>
                 <p>
@@ -60,7 +62,7 @@ export default function WhatCanDo() {
             <div className="service-box wow fadeInUp delay-0-6s">
               <div className="service-normal">
                 <div className="icon">
-                <i className="fas fa-lock"></i>
+                <img src={Icone3} alt="Icon" className="mb-25"/>
                 </div>
                 <h6>Seguro Contra Roubo</h6>
                 <p>
@@ -84,7 +86,7 @@ export default function WhatCanDo() {
             <div className="service-box wow fadeInUp delay-0-8s">
               <div className="service-normal">
                 <div className="icon">
-                <i className="fas fa-hand-holding-usd"></i>
+                <img src={Icone4} alt="Icon" className="mb-25"/>
                 </div>
                 <h6>Benefícios para Servidores</h6>
                 <p>
