@@ -10,6 +10,7 @@ export default function WhatCanDo() {
             <div className="service-box wow fadeInUp delay-0-2s">
               <div className="service-normal">
                 <div className="icon">
+                  <imag src={icone1} alt="icone 1" tittle="icone 1"/>
                   <i className="fas fa-mobile-alt"></i>
                 </div>
                 <h6>Controle de Gastos</h6>
