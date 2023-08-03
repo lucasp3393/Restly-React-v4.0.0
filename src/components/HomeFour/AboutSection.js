@@ -12,23 +12,20 @@ export default function AboutSection() {
           <div className="col-lg-6">
             <div className="about-content pr-90 rpr-0 rmb-55 wow fadeInLeft delay-0-2s">
               <div className="section-title mb-35">
-                <span className="sub-title">It Support For Business</span>
+                <span className="sub-title">Ficou Sabendo?</span>
                 <h2>
-                  Preparing for your success trusted source in IT services for
-                  global providing
+                O cartão <span style={{color:"#104cba", fontWeight:"500"}}>Seer Card</span> possibilita aquisição de bens e serviços, através de uma ampla rede credenciada.
                 </h2>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam nostrud
+              Permite também uma antecipação salarial para os colaboradores de empresas privadas ou mistas e servidores públicos, através de um cartão e/ou App com as melhores condiçes de mercado.
+Basta clicar e um atendente falar com você agora mesmo.
               </p>
               <i>
-                Consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua.
+              Tudo em um só lugar! Particidade na palma da sua mão, para você usar quando e onde quiser
               </i>
               <a href="/about-one" className="theme-btn1 mt-25">
-                Learn About More
+              Cadastrar
               </a>
             </div>
           </div>

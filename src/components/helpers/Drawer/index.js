@@ -24,7 +24,7 @@ function Drawer({ drawer, action }) {
         onClick={(e) => action(e)}
         className={`off_canvars_overlay ${drawer ? "active" : ""}`}
       ></div>
-      <div className="offcanvas_menu">
+      <div className="offcanvas_menu" style={{display:'block'}}>
         <div className="container-fluid">
           <div className="row">
             <div className="col-12">

@@ -1,23 +1,21 @@
 import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 // Todo: for spacific page rtl disabled
 // import { useLocation } from "react-router-dom";
-import useToggle from "./hooks/useToggle";
 import Routers from "./Routers";
-import { rtlToggle } from "./store/rtlSetting";
 
 function App() {
   const { rtl } = useSelector((state) => state.rtl);
-  const dispatch = useDispatch();
-  const html = document.getElementsByTagName("html");
-  const [settingToggle, setToggle] = useToggle(false);
+  // const dispatch = useDispatch();
+  // const html = document.getElementsByTagName("html");
+  // const [settingToggle, setToggle] = useToggle(false);
   // Todo: for spacific page rtl disabled
   // const location = useLocation();
   useEffect(() => {
     if (rtl) {
-      html[0].dir = "rtl";
+      // html[0].dir = "rtl";
     } else {
-      html[0].dir = "";
+      // html[0].dir = "";
     }
     // Todo: for spacific page rtl disabled
     // if (location.pathname !== "/home-eight") {
@@ -32,7 +30,7 @@ function App() {
   return (
     <div className={rtl ? "direction-rtl" : ""}>
       <Routers />
-      <div
+      {/* <div
         className={`layout-settings ${settingToggle ? "active" : ""}`}
         // Todo: for spacific page rtl disabled
         // className={`layout-settings ${
@@ -71,7 +69,7 @@ function App() {
             </svg>
           </span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

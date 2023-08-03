@@ -179,6 +179,7 @@
 .offcanvas-social {
     margin-bottom: 40px;
     margin-top: 40px;
+    color: #2b70fa !important;
 }
 .offcanvas-social ul li {
     display: inline-block;

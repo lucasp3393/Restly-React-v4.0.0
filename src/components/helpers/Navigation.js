@@ -7,7 +7,7 @@ function Navigation({ className }) {
         <ul>
           <li>
             <Link to="#">
-              Home <i className="fa fa-angle-down" />
+              Início <i className="fa fa-angle-down" />
             </Link>
             <ul className="sub-menu">
               <li>
@@ -41,7 +41,7 @@ function Navigation({ className }) {
           </li>
           <li>
             <Link to="#">
-              About <i className="fa fa-angle-down" />
+              Benefícios <i className="fa fa-angle-down" />
             </Link>
             <ul className="sub-menu">
               <li>
@@ -69,7 +69,7 @@ function Navigation({ className }) {
           </li>
           <li>
             <Link to="#">
-              Services <i className="fa fa-angle-down" />
+              Seguros <i className="fa fa-angle-down" />
             </Link>
             <ul className="sub-menu">
               <li>
@@ -98,7 +98,7 @@ function Navigation({ className }) {
               </li>
             </ul>
           </li>
-          <li>
+          {/* <li>
             <Link to="#">
               Portfolio <i className="fa fa-angle-down" />
             </Link>
@@ -119,8 +119,8 @@ function Navigation({ className }) {
                 <Link to="/portfolio-details">Portfolio Details</Link>
               </li>
             </ul>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link to="#">
               Pages <i className="fa fa-angle-down" />
             </Link>
@@ -198,10 +198,10 @@ function Navigation({ className }) {
                 <Link to="/404">404</Link>
               </li>
             </ul>
-          </li>
+          </li> */}
           <li>
             <Link to="#">
-              Blog <i className="fa fa-angle-down" />
+              Quem Somos <i className="fa fa-angle-down" />
             </Link>
             <ul className="sub-menu">
               <li>
@@ -213,7 +213,7 @@ function Navigation({ className }) {
             </ul>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">Contato</Link>
           </li>
         </ul>
       </div>

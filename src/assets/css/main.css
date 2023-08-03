@@ -2089,7 +2089,9 @@ h5,
 
 .pb-80,
 .py-80 {
-  padding-bottom: 80px;
+  padding-bottom: 100px;
+  width: 100vw;
+  height: 85vh;
 }
 
 .pb-85,
@@ -2100,6 +2102,7 @@ h5,
 .pb-90,
 .py-90 {
   padding-bottom: 90px;
+  background-color: #e5eef6;
 }
 
 .pb-95,
@@ -7586,7 +7589,6 @@ h5,
 .about-section {
   z-index: 1;
   position: relative;
-  background-color: #F7F7F7;
 }
 .about-section:after {
   content: "";
@@ -8136,7 +8138,8 @@ h5,
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  border: 1px solid #e7edf8;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
 }
 .service-normal h6 {
   margin-bottom: 15px;

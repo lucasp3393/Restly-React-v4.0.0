@@ -29,7 +29,7 @@ export default function WhatCanDo() {
                 <h3>Preparing For Your Business Success With IT Solution</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisc</p>
                 <a href="/service-details" className="theme-btn">
-                  Learn More
+                  Saiba Mais
                 </a>
               </div>
             </div>
@@ -53,7 +53,7 @@ export default function WhatCanDo() {
                 <h3>Preparing For Your Business Success With IT Solution</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisc</p>
                 <a href="/service-details" className="theme-btn">
-                  Learn More
+                Saiba Mais
                 </a>
               </div>
             </div>
@@ -77,7 +77,7 @@ export default function WhatCanDo() {
                 <h3>Preparing For Your Business Success With IT Solution</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisc</p>
                 <a href="/service-details" className="theme-btn">
-                  Learn More
+                Saiba Mais
                 </a>
               </div>
             </div>
@@ -101,7 +101,7 @@ export default function WhatCanDo() {
                 <h3>Preparing For Your Business Success With IT Solution</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisc</p>
                 <a href="/service-details" className="theme-btn">
-                  Learn More
+                Saiba Mais
                 </a>
               </div>
             </div>
