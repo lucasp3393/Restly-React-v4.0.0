@@ -39,7 +39,7 @@ function Drawer({ drawer, action }) {
                 </a>
                 <div id="menu" className="text-left ">
                   <ul className="offcanvas_main_menu">
-                    <li
+                    {/* <li
                       onClick={(e) => handler(e, "home")}
                       id="home"
                       className="menu-item-has-children active"
@@ -82,6 +82,13 @@ function Drawer({ drawer, action }) {
                           <Link to="/home-nine">Home 9</Link>
                         </li>
                       </ul>
+                    </li> */}
+                    <li
+                      onClick={(e) => handler(e, "home")}
+                      id="home"
+                      className="menu-item-has-children active"
+                    >
+                      <Link to="/home-four">Início</Link>
                     </li>
                     <li
                       onClick={(e) => handler(e, "about")}

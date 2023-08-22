@@ -7,35 +7,35 @@ function Navigation({ className }) {
         <ul>
           <li>
             <Link to="#">
-              Início <i className="fa fa-angle-down" />
+              Começo <i className="fa fa-angle-down" />
             </Link>
             <ul className="sub-menu">
               <li>
-                <Link to="/">Home 1</Link>
+                <Link to="/home-four">Home 1</Link>
               </li>
               <li>
-                <Link to="/home-two">Home 2</Link>
+                <Link to="/home-four">Home 2</Link>
               </li>
               <li>
-                <Link to="/home-three">Home 3</Link>
+                <Link to="/home-four">Home 3</Link>
               </li>
               <li>
                 <Link to="/home-four">Home 4</Link>
               </li>
               <li>
-                <Link to="/home-five">Home 5</Link>
+                <Link to="/home-four">Home 5</Link>
               </li>
               <li>
-                <Link to="/home-six">Home 6</Link>
+                <Link to="/home-four">Home 6</Link>
               </li>
               <li>
-                <Link to="/home-seven">Home 7</Link>
+                <Link to="/home-four">Home 7</Link>
               </li>
               <li>
-                <Link to="/home-eight">Home 8</Link>
+                <Link to="/home-four">Home 8</Link>
               </li>
               <li>
-                <Link to="/home-nine">Home 9</Link>
+                <Link to="/home-four">Home 9</Link>
               </li>
             </ul>
           </li>
@@ -45,25 +45,25 @@ function Navigation({ className }) {
             </Link>
             <ul className="sub-menu">
               <li>
-                <Link to="/about-one">About One</Link>
+                <Link to="/about-four">About One</Link>
               </li>
               <li>
-                <Link to="/about-two">About Two</Link>
+                <Link to="/about-four">About Two</Link>
               </li>
               <li>
-                <Link to="/about-three">About Three</Link>
+                <Link to="/about-four">About Three</Link>
               </li>
               <li>
                 <Link to="/about-four">About four</Link>
               </li>
               <li>
-                <Link to="/about-five">About five</Link>
+                <Link to="/about-four">About five</Link>
               </li>
               <li>
-                <Link to="/about-six">About Six</Link>
+                <Link to="/about-four">About Six</Link>
               </li>
               <li>
-                <Link to="/about-seven">About Seven</Link>
+                <Link to="/about-four">About Seven</Link>
               </li>
             </ul>
           </li>
@@ -71,32 +71,9 @@ function Navigation({ className }) {
             <Link to="#">
               Seguros <i className="fa fa-angle-down" />
             </Link>
-            <ul className="sub-menu">
-              <li>
-                <Link to="/service-one">Service One</Link>
-              </li>
-              <li>
-                <Link to="/service-two">Service Two</Link>
-              </li>
-              <li>
-                <Link to="/service-three">Service Three</Link>
-              </li>
-              <li>
-                <Link to="/service-four">Service Four</Link>
-              </li>
-              <li>
-                <Link to="/service-five">Service five</Link>
-              </li>
-              <li>
-                <Link to="/service-six">Service Six</Link>
-              </li>
-              <li>
-                <Link to="/service-seven">Service Seven</Link>
-              </li>
-              <li>
-                <Link to="/service-details">Service Details</Link>
-              </li>
-            </ul>
+            <li>
+            <Link to="/home-four"></Link>
+          </li>
           </li>
           {/* <li>
             <Link to="#">
