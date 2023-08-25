@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../../assets/images/logos/logo-three.png";
+import logo from "../../../assets/images/logos/logo-menu.png";
 import "./style.css";
 
 function Drawer({ drawer, action }) {
@@ -95,17 +95,15 @@ function Drawer({ drawer, action }) {
                       id="about"
                       className="menu-item-has-children active"
                     >
-                      <span className="menu-expand">
-                        <i className="fa fa-angle-down"></i>
-                      </span>
-                      <a href="#">About</a>
+                      
+                      <a href="#">Serviços</a>
                       <ul
                         className="sub-menu"
                         style={{
                           height: item === "about" ? itemSize : "0px",
                         }}
                       >
-                        <li>
+                        {/* <li>
                           <Link to="/about-one">About 1</Link>
                         </li>
                         <li>
@@ -119,16 +117,16 @@ function Drawer({ drawer, action }) {
                         </li>
                         <li>
                           <a href="/about-five">About five</a>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                           <a href="/about-six">About Six</a>
                         </li>
                         <li>
                           <a href="/about-seven">About Seven</a>
-                        </li>
+                        </li> */}
                       </ul>
                     </li>
-                    <li
+                    {/* <li
                       onClick={(e) => handler(e, "service")}
                       id="service"
                       className="menu-item-has-children active"
@@ -168,8 +166,8 @@ function Drawer({ drawer, action }) {
                           <a href="/service-details">Service Details</a>
                         </li>
                       </ul>
-                    </li>
-                    <li
+                    </li> */}
+                    {/* <li
                       onClick={(e) => handler(e, "portfolio")}
                       id="portfolio"
                       className="menu-item-has-children active"
@@ -200,6 +198,36 @@ function Drawer({ drawer, action }) {
                           <a href="/portfolio-details">Portfolio Details</a>
                         </li>
                       </ul>
+                    </li> */}
+                    {/* <li
+                      onClick={(e) => handler(e, "Blogs")}
+                      id="Blogs"
+                      className="menu-item-has-children active"
+                    >
+                      <span className="menu-expand">
+                        <i className="fa fa-angle-down"></i>
+                      </span>
+                      <a href="#">Blog</a>
+                      <ul
+                        className="sub-menu"
+                        style={{
+                          height: item === "Blogs" ? itemSize : "0px",
+                        }}
+                      >
+                        <li>
+                          <Link to="/blog">Blog Page</Link>
+                        </li>
+                        <li>
+                          <Link to="/blog/blog-details">Blog Details</Link>
+                        </li>
+                      </ul>
+                    </li> */}
+                    <li
+                      onClick={(e) => handler(e, "contact")}
+                      id="contact"
+                      className="menu-item-has-children active"
+                    >
+                      <Link to="/contact">Contato</Link>
                     </li>
                     <li
                       onClick={(e) => handler(e, "Pages")}
@@ -209,7 +237,7 @@ function Drawer({ drawer, action }) {
                       <span className="menu-expand">
                         <i className="fa fa-angle-down"></i>
                       </span>
-                      <a href="#">Pages</a>
+                      <a href="#">Acesso do Lojista</a>
                       <ul
                         className="sub-menu"
                         style={{
@@ -217,18 +245,18 @@ function Drawer({ drawer, action }) {
                         }}
                       >
                         <li>
-                          <a href="/counters">Counters</a>
+                          <a href="http://cartao2.algorix.com/ires/Login.aspx?op=Login" target="_blank" rel="noopener noreferrer">Portal do Lojista</a>
                         </li>
                         <li>
-                          <a href="/shop">Shop</a>
+                        <a href="http://cartao2.algorix.com/ires/Login.aspx?op=Login" target="_blank" rel="noopener noreferrer">Portal do Parceiro</a>
                         </li>
                         <li>
-                          <a href="/shop-details">Shop details</a>
+                          <a href="https://cartao2.algorix.com/Ires/Atend/logincliente.aspx" target="_blank" rel="noopener noreferrer">Auto Atendimento</a>
                         </li>
-                        <li>
+                       {/*  <li>
                           <a href="/pricing">Pricing One</a>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                           <a href="/pricing-two">Pricing Two</a>
                         </li>
                         <li>
@@ -257,85 +285,30 @@ function Drawer({ drawer, action }) {
                         </li>
                         <li>
                           <a href="/team-single">Team Single</a>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                           <a href="/404">404</a>
-                        </li>
+                        </li> */}
                       </ul>
-                    </li>
-                    <li
-                      onClick={(e) => handler(e, "Blogs")}
-                      id="Blogs"
-                      className="menu-item-has-children active"
-                    >
-                      <span className="menu-expand">
-                        <i className="fa fa-angle-down"></i>
-                      </span>
-                      <a href="#">Blog</a>
-                      <ul
-                        className="sub-menu"
-                        style={{
-                          height: item === "Blogs" ? itemSize : "0px",
-                        }}
-                      >
-                        <li>
-                          <Link to="/blog">Blog Page</Link>
-                        </li>
-                        <li>
-                          <Link to="/blog/blog-details">Blog Details</Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li
-                      onClick={(e) => handler(e, "contact")}
-                      id="contact"
-                      className="menu-item-has-children active"
-                    >
-                      <Link to="/contact">Contact</Link>
                     </li>
                   </ul>
                 </div>
-                <div className="offcanvas-social">
-                  <ul className="text-center">
-                    <li>
-                      <a href="$">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="$">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="$">
-                        <i className="fab fa-instagram"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="$">
-                        <i className="fab fa-dribbble"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                <br></br>
                 <div className="footer-widget-info">
                   <ul>
+                  <li>
+                      <a href="#">
+                        <i className="fa fa-phone"></i> (71) 2105-2767
+                      </a>
+                      <li>
                     <li>
                       <a href="#">
-                        <i className="fa fa-envelope"></i> support@restly.com
+                        <i className="fa fa-envelope"></i> atendimento@seercard.com.br
                       </a>
                     </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-phone"></i> +(642) 342 762 44
-                      </a>
+                      </li>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="fa fa-map-marker-alt"></i> 442 Belle Terre
-                        St Floor 7, San Francisco, AV 4206
-                      </a>
                     </li>
                   </ul>
                 </div>
